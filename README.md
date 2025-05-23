@@ -16,7 +16,7 @@ The goal was to assess how geographically accessible public service centers are 
 
 The complete methodology, analysis, and findings are documented in the PDF report:
 
-👉 [View the full report (PDF)](Report_paper_folder/Project_Report_paper.pdf) and open the pdf file.
+👉 To View the full report (PDF) go to Report_paper_folder/Project_Report_paper.pdf and open the pdf file.
 
 ## 🗂️ Notebooks & Visuals
 
