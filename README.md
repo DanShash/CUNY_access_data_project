@@ -1,4 +1,3 @@
-```
 # Mapping Accessibility of Public Services Near CUNY Campuses
 
 This project explores the spatial relationship between City University of New York (CUNY) campuses and NYC Benefits Access Centers using open datasets and geospatial analysis.
@@ -7,43 +6,25 @@ The goal was to assess how geographically accessible public service centers are 
 
 ## 🔍 Project Highlights
 
-- Combined two NYC open datasets using geographic coordinates
-- Calculated distance between each campus and the nearest access center
-- Visualized service accessibility using interactive maps and charts
-- Built a PyTorch model to predict boroughs from spatial features
-- Produced a full technical report summarizing the methodology and results
+- Merged and cleaned two public datasets using geolocation
+- Calculated distances between CUNY campuses and the nearest access centers
+- Visualized findings with bar charts, histograms, and an interactive map
+- Built a PyTorch model to classify boroughs based on spatial features
+- Documented the full process in a formal technical report
 
-## 📁 Repository Structure
+## 📄 Full Report
 
-```
+The complete methodology, analysis, and findings are documented in the PDF report:
 
-.
-├── data/
-│   └── cuny\_nearest\_access\_centers.csv
-├── map/
-│   └── nyc\_services\_map.html
-├── plots/
-│   ├── distance\_bar\_chart.png
-│   ├── distance\_histogram.png
-│   └── confusion\_matrix.png
-├── CUNY\_NYC\_Accessibility\_Report.pdf
-├── notebook.ipynb
+👉 [View the full report (PDF)](Report_paper_folder/Project_Report_paper.pdf) and open the pdf file.
 
-```
+## 🗂️ Notebooks & Visuals
 
-## 📄 Resources
-
-- [CUNY Campus Locations Dataset](https://data.cityofnewyork.us/Education/City-University-of-New-York-CUNY-University-Camp/4p8f-h6i8)
-- [NYC Benefits Access Centers Dataset](https://data.cityofnewyork.us/Health/Directory-of-Benefits-Access-Centers/ji82-xba5)
-
-## 📌 Notes
-
-- All charts and the interactive map are viewable in the `/plots/` and `/map/` folders.
-- The notebook includes all code and can be opened in Google Colab or Jupyter.
-- The full report (PDF) is available [here](./CUNY_NYC_Accessibility_Report.pdf).
+- Run the main notebook (`.ipynb`) to view data wrangling, analysis, and modeling steps
+- Open the `.html` map file locally to explore the interactive map
+- Additional charts and model results are included as `.png` images
 
 ## 📬 Contact
 
 Created by Daniels S.  
 *Data Science student and aspiring ML Engineer*
-```
