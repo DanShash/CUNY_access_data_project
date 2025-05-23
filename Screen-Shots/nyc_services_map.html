@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1ee3e2da1f45cae90285151ac145069 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a1ee3e2da1f45cae90285151ac145069" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a1ee3e2da1f45cae90285151ac145069 = L.map(
+                "map_a1ee3e2da1f45cae90285151ac145069",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_237fce86c8ac8c7d2617d8191d3ac0e6 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_237fce86c8ac8c7d2617d8191d3ac0e6.addTo(map_a1ee3e2da1f45cae90285151ac145069);
+        
+    
+            var marker_cluster_09bfa7795e5e772b5eb7445f5442a750 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_5a80c20d782d52a5a13b902e51ce00fd = L.marker(
+                [40.717367, -74.012178],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_0eef47174adce07455cc5f305422b312 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85bc30d93d0e68028e84e29f3c31683c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3de1335e4a36f54295eafd7157d1427b = $(`<div id="html_3de1335e4a36f54295eafd7157d1427b" style="width: 100.0%; height: 100.0%;">CUNY: Borough of Manhattan Community College</div>`)[0];
+                popup_85bc30d93d0e68028e84e29f3c31683c.setContent(html_3de1335e4a36f54295eafd7157d1427b);
+            
+        
+
+        marker_5a80c20d782d52a5a13b902e51ce00fd.bindPopup(popup_85bc30d93d0e68028e84e29f3c31683c)
+        ;
+
+        
+    
+    
+                marker_5a80c20d782d52a5a13b902e51ce00fd.setIcon(icon_0eef47174adce07455cc5f305422b312);
+            
+    
+            var marker_b5991bb021faceca30ddf8976d9b7246 = L.marker(
+                [40.856673, -73.910127],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_2cebe269644a5b484abd83229f4008a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3d2b1dafd241c104921ef632baa8d2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_160e405ecff16523b5a5689491b03e7e = $(`<div id="html_160e405ecff16523b5a5689491b03e7e" style="width: 100.0%; height: 100.0%;">CUNY: Bronx Community College</div>`)[0];
+                popup_b3d2b1dafd241c104921ef632baa8d2d.setContent(html_160e405ecff16523b5a5689491b03e7e);
+            
+        
+
+        marker_b5991bb021faceca30ddf8976d9b7246.bindPopup(popup_b3d2b1dafd241c104921ef632baa8d2d)
+        ;
+
+        
+    
+    
+                marker_b5991bb021faceca30ddf8976d9b7246.setIcon(icon_2cebe269644a5b484abd83229f4008a8);
+            
+    
+            var marker_6e0b83abab7ee3bf2dbd1a3da0925bd9 = L.marker(
+                [40.817828, -73.926862],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_579e266a8af8ca5664059311aedcf37d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_016e9f9f0a92e01281e06efebc947206 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a7b105526093dca1414491a3366630 = $(`<div id="html_a3a7b105526093dca1414491a3366630" style="width: 100.0%; height: 100.0%;">CUNY: Hostos Community College</div>`)[0];
+                popup_016e9f9f0a92e01281e06efebc947206.setContent(html_a3a7b105526093dca1414491a3366630);
+            
+        
+
+        marker_6e0b83abab7ee3bf2dbd1a3da0925bd9.bindPopup(popup_016e9f9f0a92e01281e06efebc947206)
+        ;
+
+        
+    
+    
+                marker_6e0b83abab7ee3bf2dbd1a3da0925bd9.setIcon(icon_579e266a8af8ca5664059311aedcf37d);
+            
+    
+            var marker_d2417dba5126effd4bebda57492efc59 = L.marker(
+                [40.578349, -73.934465],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_c7015ebf3a5d1594d2dac6cbd2d191de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5f966c9fcb14b0ddd56e958862183b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f35d4f6ebad9ac3d172e90e444961df9 = $(`<div id="html_f35d4f6ebad9ac3d172e90e444961df9" style="width: 100.0%; height: 100.0%;">CUNY: Kingsborough Community College</div>`)[0];
+                popup_a5f966c9fcb14b0ddd56e958862183b7.setContent(html_f35d4f6ebad9ac3d172e90e444961df9);
+            
+        
+
+        marker_d2417dba5126effd4bebda57492efc59.bindPopup(popup_a5f966c9fcb14b0ddd56e958862183b7)
+        ;
+
+        
+    
+    
+                marker_d2417dba5126effd4bebda57492efc59.setIcon(icon_c7015ebf3a5d1594d2dac6cbd2d191de);
+            
+    
+            var marker_581c75c59f4defa120b017c89b8a94fd = L.marker(
+                [40.743951, -73.935154],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_af5f891e659ec7380edb8e75663a98cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1efe276f222f0e4ffb1cf17e9b5643c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e8d2f872ea03dc406e1a7c14cad7570 = $(`<div id="html_5e8d2f872ea03dc406e1a7c14cad7570" style="width: 100.0%; height: 100.0%;">CUNY: LaGuardia Community College</div>`)[0];
+                popup_1efe276f222f0e4ffb1cf17e9b5643c0.setContent(html_5e8d2f872ea03dc406e1a7c14cad7570);
+            
+        
+
+        marker_581c75c59f4defa120b017c89b8a94fd.bindPopup(popup_1efe276f222f0e4ffb1cf17e9b5643c0)
+        ;
+
+        
+    
+    
+                marker_581c75c59f4defa120b017c89b8a94fd.setIcon(icon_af5f891e659ec7380edb8e75663a98cb);
+            
+    
+            var marker_4422554a3bea852b91323646b0d5ed6b = L.marker(
+                [40.75615, -73.75755],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_1510b133599ef61b0cda583e44aac466 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_540bc7d485e9273aa8087af88f3de4fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_349515665c64f3a3479551362dbb9776 = $(`<div id="html_349515665c64f3a3479551362dbb9776" style="width: 100.0%; height: 100.0%;">CUNY: Queensborough Community College</div>`)[0];
+                popup_540bc7d485e9273aa8087af88f3de4fd.setContent(html_349515665c64f3a3479551362dbb9776);
+            
+        
+
+        marker_4422554a3bea852b91323646b0d5ed6b.bindPopup(popup_540bc7d485e9273aa8087af88f3de4fd)
+        ;
+
+        
+    
+    
+                marker_4422554a3bea852b91323646b0d5ed6b.setIcon(icon_1510b133599ef61b0cda583e44aac466);
+            
+    
+            var marker_a65ef31454c3a673320440b55f43d667 = L.marker(
+                [40.752846, -73.984133],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_5091241ae783516c73d0ae0aedcbdceb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91aafb49be9153cae2a6fafd3e3be119 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba1af7d566a2b4f280a259d35fdadc76 = $(`<div id="html_ba1af7d566a2b4f280a259d35fdadc76" style="width: 100.0%; height: 100.0%;">CUNY: Guttman Community College</div>`)[0];
+                popup_91aafb49be9153cae2a6fafd3e3be119.setContent(html_ba1af7d566a2b4f280a259d35fdadc76);
+            
+        
+
+        marker_a65ef31454c3a673320440b55f43d667.bindPopup(popup_91aafb49be9153cae2a6fafd3e3be119)
+        ;
+
+        
+    
+    
+                marker_a65ef31454c3a673320440b55f43d667.setIcon(icon_5091241ae783516c73d0ae0aedcbdceb);
+            
+    
+            var marker_e331922b3a2adce4ac1cd7a37d2adac5 = L.marker(
+                [40.66624, -73.957349],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_92c2ca629d78f7a1d1792ded8bca48fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d486f2fcbb1077e8e4d95d070e192f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8138bf74b141aa4087d8b9a37b6381a2 = $(`<div id="html_8138bf74b141aa4087d8b9a37b6381a2" style="width: 100.0%; height: 100.0%;">CUNY: Medgar Evers College</div>`)[0];
+                popup_7d486f2fcbb1077e8e4d95d070e192f0.setContent(html_8138bf74b141aa4087d8b9a37b6381a2);
+            
+        
+
+        marker_e331922b3a2adce4ac1cd7a37d2adac5.bindPopup(popup_7d486f2fcbb1077e8e4d95d070e192f0)
+        ;
+
+        
+    
+    
+                marker_e331922b3a2adce4ac1cd7a37d2adac5.setIcon(icon_92c2ca629d78f7a1d1792ded8bca48fe);
+            
+    
+            var marker_104da99ce627a7507e4f533143274cce = L.marker(
+                [40.695507, -73.987882],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_c0122a2d91cb12f513c302b85d03e75b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ea19ef06bcd1aa2a21e905714da9965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ec2b0a71763a0f04b7e89f8c1382442 = $(`<div id="html_9ec2b0a71763a0f04b7e89f8c1382442" style="width: 100.0%; height: 100.0%;">CUNY: New York City College of Technology</div>`)[0];
+                popup_6ea19ef06bcd1aa2a21e905714da9965.setContent(html_9ec2b0a71763a0f04b7e89f8c1382442);
+            
+        
+
+        marker_104da99ce627a7507e4f533143274cce.bindPopup(popup_6ea19ef06bcd1aa2a21e905714da9965)
+        ;
+
+        
+    
+    
+                marker_104da99ce627a7507e4f533143274cce.setIcon(icon_c0122a2d91cb12f513c302b85d03e75b);
+            
+    
+            var marker_a2cd83410d4584acef55578773446d0c = L.marker(
+                [40.608648, -74.153563],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_7856e00570c3c76a57ee89aab87da484 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f80af422d3e9d0e151a708617994556 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_586c496041ab622a99865ed2aed2bb66 = $(`<div id="html_586c496041ab622a99865ed2aed2bb66" style="width: 100.0%; height: 100.0%;">CUNY: College of Staten Island</div>`)[0];
+                popup_3f80af422d3e9d0e151a708617994556.setContent(html_586c496041ab622a99865ed2aed2bb66);
+            
+        
+
+        marker_a2cd83410d4584acef55578773446d0c.bindPopup(popup_3f80af422d3e9d0e151a708617994556)
+        ;
+
+        
+    
+    
+                marker_a2cd83410d4584acef55578773446d0c.setIcon(icon_7856e00570c3c76a57ee89aab87da484);
+            
+    
+            var marker_b1e4d2baf50aed01c60ffd339e2042dd = L.marker(
+                [40.75541, -73.98184],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_611b9a6c655730dc61f22130bfb6d358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b030eabbf34301f81be2823cf4fe81c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b64446637afa31c55edae68fe1e5b742 = $(`<div id="html_b64446637afa31c55edae68fe1e5b742" style="width: 100.0%; height: 100.0%;">CUNY: School of Labor and Urban Studies</div>`)[0];
+                popup_9b030eabbf34301f81be2823cf4fe81c.setContent(html_b64446637afa31c55edae68fe1e5b742);
+            
+        
+
+        marker_b1e4d2baf50aed01c60ffd339e2042dd.bindPopup(popup_9b030eabbf34301f81be2823cf4fe81c)
+        ;
+
+        
+    
+    
+                marker_b1e4d2baf50aed01c60ffd339e2042dd.setIcon(icon_611b9a6c655730dc61f22130bfb6d358);
+            
+    
+            var marker_2ab66fe73d4c3e01718af0f837546231 = L.marker(
+                [40.747639, -73.943676],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_b463a4817efad3ffb800b700f09104cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15caedf65259bb9b29e34b2a41175f62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fdd9fb70dd8913fe4970a933906e1f2 = $(`<div id="html_2fdd9fb70dd8913fe4970a933906e1f2" style="width: 100.0%; height: 100.0%;">CUNY: School of Law</div>`)[0];
+                popup_15caedf65259bb9b29e34b2a41175f62.setContent(html_2fdd9fb70dd8913fe4970a933906e1f2);
+            
+        
+
+        marker_2ab66fe73d4c3e01718af0f837546231.bindPopup(popup_15caedf65259bb9b29e34b2a41175f62)
+        ;
+
+        
+    
+    
+                marker_2ab66fe73d4c3e01718af0f837546231.setIcon(icon_b463a4817efad3ffb800b700f09104cc);
+            
+    
+            var marker_bf409ac92a299aca834ccf5e018f385f = L.marker(
+                [40.748724, -73.984205],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_066092c320e9da8e58497592ad0f6ffe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76c49a7a56303379efd3ad120f360164 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d44420c6a99b55e684c77a63dde955a2 = $(`<div id="html_d44420c6a99b55e684c77a63dde955a2" style="width: 100.0%; height: 100.0%;">CUNY: The Graduate School and University Center</div>`)[0];
+                popup_76c49a7a56303379efd3ad120f360164.setContent(html_d44420c6a99b55e684c77a63dde955a2);
+            
+        
+
+        marker_bf409ac92a299aca834ccf5e018f385f.bindPopup(popup_76c49a7a56303379efd3ad120f360164)
+        ;
+
+        
+    
+    
+                marker_bf409ac92a299aca834ccf5e018f385f.setIcon(icon_066092c320e9da8e58497592ad0f6ffe);
+            
+    
+            var marker_46b54382ecebc353565493567b15db07 = L.marker(
+                [40.748151, -73.989723],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_380e4fade806833143de5626fe58f780 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52ab3672c33887ea734604e2e0438964 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbe572fc591e5f19515bcec8ac300f75 = $(`<div id="html_bbe572fc591e5f19515bcec8ac300f75" style="width: 100.0%; height: 100.0%;">CUNY: School of Professional Studies</div>`)[0];
+                popup_52ab3672c33887ea734604e2e0438964.setContent(html_bbe572fc591e5f19515bcec8ac300f75);
+            
+        
+
+        marker_46b54382ecebc353565493567b15db07.bindPopup(popup_52ab3672c33887ea734604e2e0438964)
+        ;
+
+        
+    
+    
+                marker_46b54382ecebc353565493567b15db07.setIcon(icon_380e4fade806833143de5626fe58f780);
+            
+    
+            var marker_19f5f8ee6f5acfed62590059321b3dbb = L.marker(
+                [40.80771, -73.9442],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_ccf995625ec52520c3d0df99c72aae6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5dd00dbbb8d0eb797063dbd2287f4dd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b19ec44de4c6458aa1928857dfcb2fa = $(`<div id="html_1b19ec44de4c6458aa1928857dfcb2fa" style="width: 100.0%; height: 100.0%;">CUNY: School of Public Health</div>`)[0];
+                popup_5dd00dbbb8d0eb797063dbd2287f4dd8.setContent(html_1b19ec44de4c6458aa1928857dfcb2fa);
+            
+        
+
+        marker_19f5f8ee6f5acfed62590059321b3dbb.bindPopup(popup_5dd00dbbb8d0eb797063dbd2287f4dd8)
+        ;
+
+        
+    
+    
+                marker_19f5f8ee6f5acfed62590059321b3dbb.setIcon(icon_ccf995625ec52520c3d0df99c72aae6a);
+            
+    
+            var marker_8a0b7b9af879f904fd86cf900a15cba9 = L.marker(
+                [40.755343, -73.988846],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_4531be98bfc351f970cbc82c6b0aabb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3319ae3b255326eb568d16c538e18e47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a94a247c89980191948b585c793e886 = $(`<div id="html_2a94a247c89980191948b585c793e886" style="width: 100.0%; height: 100.0%;">CUNY: School of Journalism</div>`)[0];
+                popup_3319ae3b255326eb568d16c538e18e47.setContent(html_2a94a247c89980191948b585c793e886);
+            
+        
+
+        marker_8a0b7b9af879f904fd86cf900a15cba9.bindPopup(popup_3319ae3b255326eb568d16c538e18e47)
+        ;
+
+        
+    
+    
+                marker_8a0b7b9af879f904fd86cf900a15cba9.setIcon(icon_4531be98bfc351f970cbc82c6b0aabb1);
+            
+    
+            var marker_7f414373037915dc17dca1df89cda3e1 = L.marker(
+                [40.77384, -73.9802],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_9385c90ef7b9852d005363ec29fa61dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3824f67ee521975e8c7c3054646de9aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06687c6d408711fa9096ec70a93998e9 = $(`<div id="html_06687c6d408711fa9096ec70a93998e9" style="width: 100.0%; height: 100.0%;">CUNY: Macaulay Honors College</div>`)[0];
+                popup_3824f67ee521975e8c7c3054646de9aa.setContent(html_06687c6d408711fa9096ec70a93998e9);
+            
+        
+
+        marker_7f414373037915dc17dca1df89cda3e1.bindPopup(popup_3824f67ee521975e8c7c3054646de9aa)
+        ;
+
+        
+    
+    
+                marker_7f414373037915dc17dca1df89cda3e1.setIcon(icon_9385c90ef7b9852d005363ec29fa61dd);
+            
+    
+            var marker_0b9b5d5634df3e17719f9f746339be80 = L.marker(
+                [40.740977, -73.984252],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_739d5074fe55d40e2c94a7213ad62dc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fed299c5471188a91426d7060a73241a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da6a102630d327d6fe5463248d5c16a6 = $(`<div id="html_da6a102630d327d6fe5463248d5c16a6" style="width: 100.0%; height: 100.0%;">CUNY: Baruch College</div>`)[0];
+                popup_fed299c5471188a91426d7060a73241a.setContent(html_da6a102630d327d6fe5463248d5c16a6);
+            
+        
+
+        marker_0b9b5d5634df3e17719f9f746339be80.bindPopup(popup_fed299c5471188a91426d7060a73241a)
+        ;
+
+        
+    
+    
+                marker_0b9b5d5634df3e17719f9f746339be80.setIcon(icon_739d5074fe55d40e2c94a7213ad62dc6);
+            
+    
+            var marker_8fb82612e07460bb06f2d30bf28407b5 = L.marker(
+                [40.630276, -73.955545],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_9afaf9c3049fa453e529f29d25de0189 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88a589d29d57b2b3178527ca54c142d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50cb93cf0815f134f6cb8528d7f7e9af = $(`<div id="html_50cb93cf0815f134f6cb8528d7f7e9af" style="width: 100.0%; height: 100.0%;">CUNY: Brooklyn College</div>`)[0];
+                popup_88a589d29d57b2b3178527ca54c142d5.setContent(html_50cb93cf0815f134f6cb8528d7f7e9af);
+            
+        
+
+        marker_8fb82612e07460bb06f2d30bf28407b5.bindPopup(popup_88a589d29d57b2b3178527ca54c142d5)
+        ;
+
+        
+    
+    
+                marker_8fb82612e07460bb06f2d30bf28407b5.setIcon(icon_9afaf9c3049fa453e529f29d25de0189);
+            
+    
+            var marker_ba92bf932744ac9fd575803fe72f8cc9 = L.marker(
+                [40.819548, -73.949518],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_5040e255e7611596f9ead45d602de328 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3a74c58047ccf7a999167987dbb01e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a9be3d300653ac0961d4cc1556ec7e6 = $(`<div id="html_2a9be3d300653ac0961d4cc1556ec7e6" style="width: 100.0%; height: 100.0%;">CUNY: The City College of New York</div>`)[0];
+                popup_a3a74c58047ccf7a999167987dbb01e9.setContent(html_2a9be3d300653ac0961d4cc1556ec7e6);
+            
+        
+
+        marker_ba92bf932744ac9fd575803fe72f8cc9.bindPopup(popup_a3a74c58047ccf7a999167987dbb01e9)
+        ;
+
+        
+    
+    
+                marker_ba92bf932744ac9fd575803fe72f8cc9.setIcon(icon_5040e255e7611596f9ead45d602de328);
+            
+    
+            var marker_9d872d6ffcafb9aea5bb8f6d85d41c27 = L.marker(
+                [40.819548, -73.949518],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_e6a8b4144958a309233a06ee6058baa4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_471a98253ee3c759cee93635641d642f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8a44feaa7be40bccb212d9d23ed61df = $(`<div id="html_b8a44feaa7be40bccb212d9d23ed61df" style="width: 100.0%; height: 100.0%;">CUNY: School of Medicine</div>`)[0];
+                popup_471a98253ee3c759cee93635641d642f.setContent(html_b8a44feaa7be40bccb212d9d23ed61df);
+            
+        
+
+        marker_9d872d6ffcafb9aea5bb8f6d85d41c27.bindPopup(popup_471a98253ee3c759cee93635641d642f)
+        ;
+
+        
+    
+    
+                marker_9d872d6ffcafb9aea5bb8f6d85d41c27.setIcon(icon_e6a8b4144958a309233a06ee6058baa4);
+            
+    
+            var marker_874fbed97c5d96b546dba0bf5c0ba6d3 = L.marker(
+                [40.768731, -73.964915],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_31dde4bad799ee8937eccca34cabb881 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_850a136dd7f3989ad36c8cfa26129feb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_405b867d1d1d870b5adbf363fc816bbd = $(`<div id="html_405b867d1d1d870b5adbf363fc816bbd" style="width: 100.0%; height: 100.0%;">CUNY: Hunter College</div>`)[0];
+                popup_850a136dd7f3989ad36c8cfa26129feb.setContent(html_405b867d1d1d870b5adbf363fc816bbd);
+            
+        
+
+        marker_874fbed97c5d96b546dba0bf5c0ba6d3.bindPopup(popup_850a136dd7f3989ad36c8cfa26129feb)
+        ;
+
+        
+    
+    
+                marker_874fbed97c5d96b546dba0bf5c0ba6d3.setIcon(icon_31dde4bad799ee8937eccca34cabb881);
+            
+    
+            var marker_7cd3ced6a23915072fa02fcab23592a4 = L.marker(
+                [40.769939, -73.986469],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_f3e040f9dac9d0ea698160f9a5a52b8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed58f4da0075d4cc8255cd43fb384654 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4d252373ca85d8aacd1106961ccb01a = $(`<div id="html_c4d252373ca85d8aacd1106961ccb01a" style="width: 100.0%; height: 100.0%;">CUNY: John Jay College of Criminal Justice</div>`)[0];
+                popup_ed58f4da0075d4cc8255cd43fb384654.setContent(html_c4d252373ca85d8aacd1106961ccb01a);
+            
+        
+
+        marker_7cd3ced6a23915072fa02fcab23592a4.bindPopup(popup_ed58f4da0075d4cc8255cd43fb384654)
+        ;
+
+        
+    
+    
+                marker_7cd3ced6a23915072fa02fcab23592a4.setIcon(icon_f3e040f9dac9d0ea698160f9a5a52b8d);
+            
+    
+            var marker_95bd054cefa378d106b9986096c0b360 = L.marker(
+                [40.873442, -73.889361],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_4964951e4419b7a895e76b57eb0a5ab1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05713fbc8d6c747749ea5c51ed4b3b40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f419a631c10eb49e8a380ba9c22fec4 = $(`<div id="html_0f419a631c10eb49e8a380ba9c22fec4" style="width: 100.0%; height: 100.0%;">CUNY: Lehman College</div>`)[0];
+                popup_05713fbc8d6c747749ea5c51ed4b3b40.setContent(html_0f419a631c10eb49e8a380ba9c22fec4);
+            
+        
+
+        marker_95bd054cefa378d106b9986096c0b360.bindPopup(popup_05713fbc8d6c747749ea5c51ed4b3b40)
+        ;
+
+        
+    
+    
+                marker_95bd054cefa378d106b9986096c0b360.setIcon(icon_4964951e4419b7a895e76b57eb0a5ab1);
+            
+    
+            var marker_5f2c36f7d9a6b76a12bd2571ecc0f4af = L.marker(
+                [40.736316, -73.820035],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_b78f490641908488a20b65fb68f39bde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d308c17ed2cadcabb7ad374eb8c874a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1e1c7ef1962f2e360e9be7dff6a1a18 = $(`<div id="html_b1e1c7ef1962f2e360e9be7dff6a1a18" style="width: 100.0%; height: 100.0%;">CUNY: Queens College</div>`)[0];
+                popup_8d308c17ed2cadcabb7ad374eb8c874a.setContent(html_b1e1c7ef1962f2e360e9be7dff6a1a18);
+            
+        
+
+        marker_5f2c36f7d9a6b76a12bd2571ecc0f4af.bindPopup(popup_8d308c17ed2cadcabb7ad374eb8c874a)
+        ;
+
+        
+    
+    
+                marker_5f2c36f7d9a6b76a12bd2571ecc0f4af.setIcon(icon_b78f490641908488a20b65fb68f39bde);
+            
+    
+            var marker_d157ec23b112a8bc4e8911541f0603b9 = L.marker(
+                [40.702821, -73.795776],
+                {
+}
+            ).addTo(marker_cluster_09bfa7795e5e772b5eb7445f5442a750);
+        
+    
+            var icon_a2c2753e5f8202b39300b743901de639 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45f9ee294589f777f542c329568913ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bd4383b846d5ecaeb75e09c09038aa4 = $(`<div id="html_0bd4383b846d5ecaeb75e09c09038aa4" style="width: 100.0%; height: 100.0%;">CUNY: York College</div>`)[0];
+                popup_45f9ee294589f777f542c329568913ac.setContent(html_0bd4383b846d5ecaeb75e09c09038aa4);
+            
+        
+
+        marker_d157ec23b112a8bc4e8911541f0603b9.bindPopup(popup_45f9ee294589f777f542c329568913ac)
+        ;
+
+        
+    
+    
+                marker_d157ec23b112a8bc4e8911541f0603b9.setIcon(icon_a2c2753e5f8202b39300b743901de639);
+            
+    
+            marker_cluster_09bfa7795e5e772b5eb7445f5442a750.addTo(map_a1ee3e2da1f45cae90285151ac145069);
+        
+    
+            var marker_cluster_3d70337bbd158301f3381479df5e65ba = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_9745fbed868ca4880a51abc9323528ce = L.marker(
+                [40.846932, -73.895099],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_0bef81612d73fb9b996c1cfcc6d2e763 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60223dfc1d57fcaaa22a390c25ca1cfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_791a0b8949c7e4f1139d35f11e797b27 = $(`<div id="html_791a0b8949c7e4f1139d35f11e797b27" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Crotona</div>`)[0];
+                popup_60223dfc1d57fcaaa22a390c25ca1cfa.setContent(html_791a0b8949c7e4f1139d35f11e797b27);
+            
+        
+
+        marker_9745fbed868ca4880a51abc9323528ce.bindPopup(popup_60223dfc1d57fcaaa22a390c25ca1cfa)
+        ;
+
+        
+    
+    
+                marker_9745fbed868ca4880a51abc9323528ce.setIcon(icon_0bef81612d73fb9b996c1cfcc6d2e763);
+            
+    
+            var marker_53cab005a6b707bffe0563fb92162629 = L.marker(
+                [40.862345, -73.89335],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_6790367f26a9e486f897376328e899c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f06e293e980d954f2801ec59d1a6ea2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4313fbb8a0697847c6b9cb56238e9517 = $(`<div id="html_4313fbb8a0697847c6b9cb56238e9517" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Fordham</div>`)[0];
+                popup_4f06e293e980d954f2801ec59d1a6ea2.setContent(html_4313fbb8a0697847c6b9cb56238e9517);
+            
+        
+
+        marker_53cab005a6b707bffe0563fb92162629.bindPopup(popup_4f06e293e980d954f2801ec59d1a6ea2)
+        ;
+
+        
+    
+    
+                marker_53cab005a6b707bffe0563fb92162629.setIcon(icon_6790367f26a9e486f897376328e899c8);
+            
+    
+            var marker_3d41cc2703b3f55a0916978a590b38c1 = L.marker(
+                [40.817656, -73.890358],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_feafa43a9a25221807e02ced978b7e41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41e1e4b1cae4dd3bccb2cafc436d4482 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9478ce8278682c8739e7517a5a355530 = $(`<div id="html_9478ce8278682c8739e7517a5a355530" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Concourse</div>`)[0];
+                popup_41e1e4b1cae4dd3bccb2cafc436d4482.setContent(html_9478ce8278682c8739e7517a5a355530);
+            
+        
+
+        marker_3d41cc2703b3f55a0916978a590b38c1.bindPopup(popup_41e1e4b1cae4dd3bccb2cafc436d4482)
+        ;
+
+        
+    
+    
+                marker_3d41cc2703b3f55a0916978a590b38c1.setIcon(icon_feafa43a9a25221807e02ced978b7e41);
+            
+    
+            var marker_bf75063989b9558b979a08337ba7c9a5 = L.marker(
+                [40.817689, -73.890379],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_05c8a94f4f7f78af4560dda31e1894d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_199fe5eba9a5a925b2f446a4c7537ed1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8ab485cb714b800e66d57d94be8b6ea = $(`<div id="html_c8ab485cb714b800e66d57d94be8b6ea" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Hunts Point</div>`)[0];
+                popup_199fe5eba9a5a925b2f446a4c7537ed1.setContent(html_c8ab485cb714b800e66d57d94be8b6ea);
+            
+        
+
+        marker_bf75063989b9558b979a08337ba7c9a5.bindPopup(popup_199fe5eba9a5a925b2f446a4c7537ed1)
+        ;
+
+        
+    
+    
+                marker_bf75063989b9558b979a08337ba7c9a5.setIcon(icon_05c8a94f4f7f78af4560dda31e1894d7);
+            
+    
+            var marker_db3c7b433fc388d516ed29947ed87028 = L.marker(
+                [40.813153, -73.927579],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_fcf0f650c1887172b80c26d4cd48db05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_505539e35cc4b0d523895f7f3be93dd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09c2ec9c6acead5d41de922dffab1d23 = $(`<div id="html_09c2ec9c6acead5d41de922dffab1d23" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Rider</div>`)[0];
+                popup_505539e35cc4b0d523895f7f3be93dd6.setContent(html_09c2ec9c6acead5d41de922dffab1d23);
+            
+        
+
+        marker_db3c7b433fc388d516ed29947ed87028.bindPopup(popup_505539e35cc4b0d523895f7f3be93dd6)
+        ;
+
+        
+    
+    
+                marker_db3c7b433fc388d516ed29947ed87028.setIcon(icon_fcf0f650c1887172b80c26d4cd48db05);
+            
+    
+            var marker_530686d0e4fc98fa584abc525b37e73e = L.marker(
+                [40.700282, -73.932552],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_e473e49fdc709c89e2c459a528316f15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1ba1a0cdcb47105df48032084a3ec75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77fdec653288e443e97a285c7c35bead = $(`<div id="html_77fdec653288e443e97a285c7c35bead" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Bushwick</div>`)[0];
+                popup_b1ba1a0cdcb47105df48032084a3ec75.setContent(html_77fdec653288e443e97a285c7c35bead);
+            
+        
+
+        marker_530686d0e4fc98fa584abc525b37e73e.bindPopup(popup_b1ba1a0cdcb47105df48032084a3ec75)
+        ;
+
+        
+    
+    
+                marker_530686d0e4fc98fa584abc525b37e73e.setIcon(icon_e473e49fdc709c89e2c459a528316f15);
+            
+    
+            var marker_e468ba33c8dda156a08713a56dad4b4f = L.marker(
+                [40.682851, -73.968809],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_1da0859d14b5859c8dcbce91b86f99f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ccc7c8f79d8b2b2a66432cbbaa821a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8e0036bc91cefe4b9c1f5718b11a9ef = $(`<div id="html_e8e0036bc91cefe4b9c1f5718b11a9ef" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Clinton Hill</div>`)[0];
+                popup_5ccc7c8f79d8b2b2a66432cbbaa821a3.setContent(html_e8e0036bc91cefe4b9c1f5718b11a9ef);
+            
+        
+
+        marker_e468ba33c8dda156a08713a56dad4b4f.bindPopup(popup_5ccc7c8f79d8b2b2a66432cbbaa821a3)
+        ;
+
+        
+    
+    
+                marker_e468ba33c8dda156a08713a56dad4b4f.setIcon(icon_1da0859d14b5859c8dcbce91b86f99f3);
+            
+    
+            var marker_c2674ba7e64ed046e046fad755435423 = L.marker(
+                [40.576475, -73.98608],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_b130c1a2ae97d684fdda5d6c36f1b642 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aeb8b04272403d8682341040ccd1ed03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_034e0b2d240fbd5ef777b94d46cf6894 = $(`<div id="html_034e0b2d240fbd5ef777b94d46cf6894" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Coney Island</div>`)[0];
+                popup_aeb8b04272403d8682341040ccd1ed03.setContent(html_034e0b2d240fbd5ef777b94d46cf6894);
+            
+        
+
+        marker_c2674ba7e64ed046e046fad755435423.bindPopup(popup_aeb8b04272403d8682341040ccd1ed03)
+        ;
+
+        
+    
+    
+                marker_c2674ba7e64ed046e046fad755435423.setIcon(icon_b130c1a2ae97d684fdda5d6c36f1b642);
+            
+    
+            var marker_bca0dcbd9249f6fa5ee7e9534fe84a60 = L.marker(
+                [40.683749, -73.982816],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_9b08f9bf520d8d43c2bcf7c1aa3e1879 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e629bc581eb3870dec0977577a9bf37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e83f9c37cf7a65de6e20f9d80af4e13 = $(`<div id="html_5e83f9c37cf7a65de6e20f9d80af4e13" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Boerum Hill</div>`)[0];
+                popup_9e629bc581eb3870dec0977577a9bf37.setContent(html_5e83f9c37cf7a65de6e20f9d80af4e13);
+            
+        
+
+        marker_bca0dcbd9249f6fa5ee7e9534fe84a60.bindPopup(popup_9e629bc581eb3870dec0977577a9bf37)
+        ;
+
+        
+    
+    
+                marker_bca0dcbd9249f6fa5ee7e9534fe84a60.setIcon(icon_9b08f9bf520d8d43c2bcf7c1aa3e1879);
+            
+    
+            var marker_1c6d7773886e2d129ecad6f5cd23c3d5 = L.marker(
+                [40.870388, -73.914561],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_12e9f3eaceb1f7cbdec4dcd8c0cd7a9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e12e0cae10c63be0d686c348bdad42b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e0f9bcdd54c73a4490617c6343292d7 = $(`<div id="html_9e0f9bcdd54c73a4490617c6343292d7" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Dyckman</div>`)[0];
+                popup_e12e0cae10c63be0d686c348bdad42b4.setContent(html_9e0f9bcdd54c73a4490617c6343292d7);
+            
+        
+
+        marker_1c6d7773886e2d129ecad6f5cd23c3d5.bindPopup(popup_e12e0cae10c63be0d686c348bdad42b4)
+        ;
+
+        
+    
+    
+                marker_1c6d7773886e2d129ecad6f5cd23c3d5.setIcon(icon_12e9f3eaceb1f7cbdec4dcd8c0cd7a9e);
+            
+    
+            var marker_0828a5afca9d8c9dae898500c9be68b4 = L.marker(
+                [40.804465, -73.93526],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_6b32c5192934f724dd03c52fc483de5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a67953f6d29c3591f1811e8232a1494 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b25a2164e0ff621e41e5b24f853093f = $(`<div id="html_7b25a2164e0ff621e41e5b24f853093f" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center East End</div>`)[0];
+                popup_2a67953f6d29c3591f1811e8232a1494.setContent(html_7b25a2164e0ff621e41e5b24f853093f);
+            
+        
+
+        marker_0828a5afca9d8c9dae898500c9be68b4.bindPopup(popup_2a67953f6d29c3591f1811e8232a1494)
+        ;
+
+        
+    
+    
+                marker_0828a5afca9d8c9dae898500c9be68b4.setIcon(icon_6b32c5192934f724dd03c52fc483de5a);
+            
+    
+            var marker_defcc532288712191ec6b269f55121f0 = L.marker(
+                [40.808451, -73.947112],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_47d0b890a4bbe61df624ab0dbb43547a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dccc035774b2c954e59e140c6265c679 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e00ee5478cdd3646cb8ec1c8ff947fa = $(`<div id="html_2e00ee5478cdd3646cb8ec1c8ff947fa" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center St. Nicholas</div>`)[0];
+                popup_dccc035774b2c954e59e140c6265c679.setContent(html_2e00ee5478cdd3646cb8ec1c8ff947fa);
+            
+        
+
+        marker_defcc532288712191ec6b269f55121f0.bindPopup(popup_dccc035774b2c954e59e140c6265c679)
+        ;
+
+        
+    
+    
+                marker_defcc532288712191ec6b269f55121f0.setIcon(icon_47d0b890a4bbe61df624ab0dbb43547a);
+            
+    
+            var marker_6ca3314ddc052333aad022b73727b89c = L.marker(
+                [40.735681, -73.988713],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_e0035a175a8279bdf14de8861ed988ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96d292c4e08e3266eb663b4e4add41ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c81a44ea7f8b041bd40fa7f0be98e209 = $(`<div id="html_c81a44ea7f8b041bd40fa7f0be98e209" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Lower Manhattan</div>`)[0];
+                popup_96d292c4e08e3266eb663b4e4add41ce.setContent(html_c81a44ea7f8b041bd40fa7f0be98e209);
+            
+        
+
+        marker_6ca3314ddc052333aad022b73727b89c.bindPopup(popup_96d292c4e08e3266eb663b4e4add41ce)
+        ;
+
+        
+    
+    
+                marker_6ca3314ddc052333aad022b73727b89c.setIcon(icon_e0035a175a8279bdf14de8861ed988ef);
+            
+    
+            var marker_e72730f45b7d67bf8b694d82f9649763 = L.marker(
+                [40.708661, -73.796703],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_179e424e2824d03287cc60aa2e69c8e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77032a45202a246cc9c10cffee878f8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1696b01394dbceeaa5fa315d401baa2b = $(`<div id="html_1696b01394dbceeaa5fa315d401baa2b" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Jamaica</div>`)[0];
+                popup_77032a45202a246cc9c10cffee878f8f.setContent(html_1696b01394dbceeaa5fa315d401baa2b);
+            
+        
+
+        marker_e72730f45b7d67bf8b694d82f9649763.bindPopup(popup_77032a45202a246cc9c10cffee878f8f)
+        ;
+
+        
+    
+    
+                marker_e72730f45b7d67bf8b694d82f9649763.setIcon(icon_179e424e2824d03287cc60aa2e69c8e3);
+            
+    
+            var marker_b64ce1b173b1f7134ced4d70b856b7bb = L.marker(
+                [40.75197, -73.931799],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_64e3b02f1d5bac3e221f8b57c477b98b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b584c9bdeb3c1b54c3227c519a7042d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaa917b734f1f8f0766bfac17c6e4e0b = $(`<div id="html_aaa917b734f1f8f0766bfac17c6e4e0b" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Queens</div>`)[0];
+                popup_3b584c9bdeb3c1b54c3227c519a7042d.setContent(html_aaa917b734f1f8f0766bfac17c6e4e0b);
+            
+        
+
+        marker_b64ce1b173b1f7134ced4d70b856b7bb.bindPopup(popup_3b584c9bdeb3c1b54c3227c519a7042d)
+        ;
+
+        
+    
+    
+                marker_b64ce1b173b1f7134ced4d70b856b7bb.setIcon(icon_64e3b02f1d5bac3e221f8b57c477b98b);
+            
+    
+            var marker_6284c0b0e23d545b0685dc52a789ed50 = L.marker(
+                [40.592902, -73.789051],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_ad3812a4a3a057b36ae5f5eaf38d601a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae5cc056511714453f7441f3cff38098 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e156dce610fa1a4c8473e79fdaf79d72 = $(`<div id="html_e156dce610fa1a4c8473e79fdaf79d72" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Rockaway</div>`)[0];
+                popup_ae5cc056511714453f7441f3cff38098.setContent(html_e156dce610fa1a4c8473e79fdaf79d72);
+            
+        
+
+        marker_6284c0b0e23d545b0685dc52a789ed50.bindPopup(popup_ae5cc056511714453f7441f3cff38098)
+        ;
+
+        
+    
+    
+                marker_6284c0b0e23d545b0685dc52a789ed50.setIcon(icon_ad3812a4a3a057b36ae5f5eaf38d601a);
+            
+    
+            var marker_ee837a46cc6f641111e1f89b5c4f8ada = L.marker(
+                [40.636992, -74.076212],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_6c2466950e7c9a3fadbb0008b9fbe73b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6c961ac3a9a5a2b66dcbe1849fac545 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ba00b9cce6a949afc4fb7d4d9f3cc7f = $(`<div id="html_1ba00b9cce6a949afc4fb7d4d9f3cc7f" style="width: 100.0%; height: 100.0%;">Access Center: HRA Benefits Access Center Richmond</div>`)[0];
+                popup_a6c961ac3a9a5a2b66dcbe1849fac545.setContent(html_1ba00b9cce6a949afc4fb7d4d9f3cc7f);
+            
+        
+
+        marker_ee837a46cc6f641111e1f89b5c4f8ada.bindPopup(popup_a6c961ac3a9a5a2b66dcbe1849fac545)
+        ;
+
+        
+    
+    
+                marker_ee837a46cc6f641111e1f89b5c4f8ada.setIcon(icon_6c2466950e7c9a3fadbb0008b9fbe73b);
+            
+    
+            var marker_6793796f1d6c31ff30b38f597f85df94 = L.marker(
+                [40.735681, -73.988713],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_aca7449814ab2a52e3539dfac98cb831 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84396d6cd5aae1be6cc306f6ccebf27d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87b23c43f4ad691107e95f4e0c6112e4 = $(`<div id="html_87b23c43f4ad691107e95f4e0c6112e4" style="width: 100.0%; height: 100.0%;">Access Center: Union Square Service Center</div>`)[0];
+                popup_84396d6cd5aae1be6cc306f6ccebf27d.setContent(html_87b23c43f4ad691107e95f4e0c6112e4);
+            
+        
+
+        marker_6793796f1d6c31ff30b38f597f85df94.bindPopup(popup_84396d6cd5aae1be6cc306f6ccebf27d)
+        ;
+
+        
+    
+    
+                marker_6793796f1d6c31ff30b38f597f85df94.setIcon(icon_aca7449814ab2a52e3539dfac98cb831);
+            
+    
+            var marker_7891aa915287dd5ef266a375b7c840b9 = L.marker(
+                [40.697254, -73.986015],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_d3c760af748f8a9b295cc287462db994 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fc719b77ef09973ea8a7620292080ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c739c4eda91f422ae6cb7d5ed62fca1c = $(`<div id="html_c739c4eda91f422ae6cb7d5ed62fca1c" style="width: 100.0%; height: 100.0%;">Access Center: Michael J. Handy Veterans' Service Center</div>`)[0];
+                popup_5fc719b77ef09973ea8a7620292080ed.setContent(html_c739c4eda91f422ae6cb7d5ed62fca1c);
+            
+        
+
+        marker_7891aa915287dd5ef266a375b7c840b9.bindPopup(popup_5fc719b77ef09973ea8a7620292080ed)
+        ;
+
+        
+    
+    
+                marker_7891aa915287dd5ef266a375b7c840b9.setIcon(icon_d3c760af748f8a9b295cc287462db994);
+            
+    
+            var marker_84d9c3f75894910580d97338e3e9a4b3 = L.marker(
+                [40.681962, -73.968434],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_afea72eee2d2543a25593ea7f3ce3c3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba5e84fad2524f1857e2ce77192b9d53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffa0ec198cf4e0c0c036bcf71e0dc577 = $(`<div id="html_ffa0ec198cf4e0c0c036bcf71e0dc577" style="width: 100.0%; height: 100.0%;">Access Center: Common Benefit Identification Card (CBIC) Electronic Benefits Transfer (EBT) Services Office</div>`)[0];
+                popup_ba5e84fad2524f1857e2ce77192b9d53.setContent(html_ffa0ec198cf4e0c0c036bcf71e0dc577);
+            
+        
+
+        marker_84d9c3f75894910580d97338e3e9a4b3.bindPopup(popup_ba5e84fad2524f1857e2ce77192b9d53)
+        ;
+
+        
+    
+    
+                marker_84d9c3f75894910580d97338e3e9a4b3.setIcon(icon_afea72eee2d2543a25593ea7f3ce3c3b);
+            
+    
+            var marker_b253d551f118e31ba5f13462070a7d81 = L.marker(
+                [40.75197, -73.931799],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_1e43d2e11c98d20f6654a026feaa69dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b7d7a0a935451c9724d4f9fcdbff6e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc7a7d24888d6a2cd0148a70bb1ce441 = $(`<div id="html_bc7a7d24888d6a2cd0148a70bb1ce441" style="width: 100.0%; height: 100.0%;">Access Center: Refugee and Immigrant Service Center</div>`)[0];
+                popup_0b7d7a0a935451c9724d4f9fcdbff6e3.setContent(html_bc7a7d24888d6a2cd0148a70bb1ce441);
+            
+        
+
+        marker_b253d551f118e31ba5f13462070a7d81.bindPopup(popup_0b7d7a0a935451c9724d4f9fcdbff6e3)
+        ;
+
+        
+    
+    
+                marker_b253d551f118e31ba5f13462070a7d81.setIcon(icon_1e43d2e11c98d20f6654a026feaa69dc);
+            
+    
+            var marker_73514dfad9a8c0b7ccfe499599953cbd = L.marker(
+                [40.735681, -73.988713],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_a860078940968909585b84ba8c31575d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ac6208f38d14f9a7ecdf2eed58a2996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b064e307a24ee4713dce76a13d0bf377 = $(`<div id="html_b064e307a24ee4713dce76a13d0bf377" style="width: 100.0%; height: 100.0%;">Access Center: Residential Treatment Service Center</div>`)[0];
+                popup_5ac6208f38d14f9a7ecdf2eed58a2996.setContent(html_b064e307a24ee4713dce76a13d0bf377);
+            
+        
+
+        marker_73514dfad9a8c0b7ccfe499599953cbd.bindPopup(popup_5ac6208f38d14f9a7ecdf2eed58a2996)
+        ;
+
+        
+    
+    
+                marker_73514dfad9a8c0b7ccfe499599953cbd.setIcon(icon_a860078940968909585b84ba8c31575d);
+            
+    
+            var marker_596b153799c4db29549abc7a66d794ea = L.marker(
+                [40.735681, -73.988713],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_9255c89709d61d39934e6dd29a1ee1d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7fc3087a555419b9b8a12f7c6a5869b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d571625c5ad9699031f528488b74fc2 = $(`<div id="html_2d571625c5ad9699031f528488b74fc2" style="width: 100.0%; height: 100.0%;">Access Center: Special Project Center</div>`)[0];
+                popup_f7fc3087a555419b9b8a12f7c6a5869b.setContent(html_2d571625c5ad9699031f528488b74fc2);
+            
+        
+
+        marker_596b153799c4db29549abc7a66d794ea.bindPopup(popup_f7fc3087a555419b9b8a12f7c6a5869b)
+        ;
+
+        
+    
+    
+                marker_596b153799c4db29549abc7a66d794ea.setIcon(icon_9255c89709d61d39934e6dd29a1ee1d0);
+            
+    
+            var marker_ccda9a3d319e8d89da2ba8774929447f = L.marker(
+                [40.697254, -73.986015],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_506d4ac8ed4e349c8a5b8a569ca39d17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6e90d4d44175cc699d5154fde99eb92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfd05f65e1d26c2de3e317c3264d17f8 = $(`<div id="html_dfd05f65e1d26c2de3e317c3264d17f8" style="width: 100.0%; height: 100.0%;">Access Center: Transportation Unit</div>`)[0];
+                popup_b6e90d4d44175cc699d5154fde99eb92.setContent(html_dfd05f65e1d26c2de3e317c3264d17f8);
+            
+        
+
+        marker_ccda9a3d319e8d89da2ba8774929447f.bindPopup(popup_b6e90d4d44175cc699d5154fde99eb92)
+        ;
+
+        
+    
+    
+                marker_ccda9a3d319e8d89da2ba8774929447f.setIcon(icon_506d4ac8ed4e349c8a5b8a569ca39d17);
+            
+    
+            var marker_c6b52d5c2b621af424abfdf7b94f0f20 = L.marker(
+                [40.817689, -73.890379],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_031251c92bcfcdc097c78c878ddecb8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be6995516274907014f92b180d145824 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6fbd1b75d7f3f9de41aaa75b14f64bd = $(`<div id="html_c6fbd1b75d7f3f9de41aaa75b14f64bd" style="width: 100.0%; height: 100.0%;">Access Center: Family Services Call Center, Bronx Satellite</div>`)[0];
+                popup_be6995516274907014f92b180d145824.setContent(html_c6fbd1b75d7f3f9de41aaa75b14f64bd);
+            
+        
+
+        marker_c6b52d5c2b621af424abfdf7b94f0f20.bindPopup(popup_be6995516274907014f92b180d145824)
+        ;
+
+        
+    
+    
+                marker_c6b52d5c2b621af424abfdf7b94f0f20.setIcon(icon_031251c92bcfcdc097c78c878ddecb8d);
+            
+    
+            var marker_0c55b5b808139200e13e07c8ca4646dd = L.marker(
+                [40.67588, -73.871091],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_175a491f9098e3f8a70ab7336ad2b68a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb9c8970d87e8ca92efcc867adca0f12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5f59d9db6cbd71283f43197fcb1d19f = $(`<div id="html_d5f59d9db6cbd71283f43197fcb1d19f" style="width: 100.0%; height: 100.0%;">Access Center: Family Services Call Center, Brooklyn Satellite</div>`)[0];
+                popup_cb9c8970d87e8ca92efcc867adca0f12.setContent(html_d5f59d9db6cbd71283f43197fcb1d19f);
+            
+        
+
+        marker_0c55b5b808139200e13e07c8ca4646dd.bindPopup(popup_cb9c8970d87e8ca92efcc867adca0f12)
+        ;
+
+        
+    
+    
+                marker_0c55b5b808139200e13e07c8ca4646dd.setIcon(icon_175a491f9098e3f8a70ab7336ad2b68a);
+            
+    
+            var marker_35a12cbcebf5be396bf439d3e340630e = L.marker(
+                [40.808451, -73.947112],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_7179be3a87af710124184b37c64a59ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_985fc1d030ed8c41d0bad7d155a3c2d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccd23201c83eda8016b40844d2df1d07 = $(`<div id="html_ccd23201c83eda8016b40844d2df1d07" style="width: 100.0%; height: 100.0%;">Access Center: Family Services Call Center, Manhattan Satellite</div>`)[0];
+                popup_985fc1d030ed8c41d0bad7d155a3c2d3.setContent(html_ccd23201c83eda8016b40844d2df1d07);
+            
+        
+
+        marker_35a12cbcebf5be396bf439d3e340630e.bindPopup(popup_985fc1d030ed8c41d0bad7d155a3c2d3)
+        ;
+
+        
+    
+    
+                marker_35a12cbcebf5be396bf439d3e340630e.setIcon(icon_7179be3a87af710124184b37c64a59ba);
+            
+    
+            var marker_3491e2562ecd54cc710c12c70dd7c03a = L.marker(
+                [40.75197, -73.931799],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_caeafa0e0c33fc25d84fb3cf39953568 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf38b6ca51093bf643d0c761aa6f4795 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ac07d78b237a6bcfb9afb91ab95e2ca = $(`<div id="html_7ac07d78b237a6bcfb9afb91ab95e2ca" style="width: 100.0%; height: 100.0%;">Access Center: Family Services Call Center, Queens Satellite</div>`)[0];
+                popup_cf38b6ca51093bf643d0c761aa6f4795.setContent(html_7ac07d78b237a6bcfb9afb91ab95e2ca);
+            
+        
+
+        marker_3491e2562ecd54cc710c12c70dd7c03a.bindPopup(popup_cf38b6ca51093bf643d0c761aa6f4795)
+        ;
+
+        
+    
+    
+                marker_3491e2562ecd54cc710c12c70dd7c03a.setIcon(icon_caeafa0e0c33fc25d84fb3cf39953568);
+            
+    
+            var marker_d93c85c5b327985bb2b59b2e9a3c8bc4 = L.marker(
+                [40.708661, -73.796703],
+                {
+}
+            ).addTo(marker_cluster_3d70337bbd158301f3381479df5e65ba);
+        
+    
+            var icon_ce4fdad69b2c547bcf0c82f097389a42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_676a346ab2ecaddce5069fb3fed25683 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_765f979ed82f360b5939d25d67fa2f92 = $(`<div id="html_765f979ed82f360b5939d25d67fa2f92" style="width: 100.0%; height: 100.0%;">Access Center: Family Service Call Center</div>`)[0];
+                popup_676a346ab2ecaddce5069fb3fed25683.setContent(html_765f979ed82f360b5939d25d67fa2f92);
+            
+        
+
+        marker_d93c85c5b327985bb2b59b2e9a3c8bc4.bindPopup(popup_676a346ab2ecaddce5069fb3fed25683)
+        ;
+
+        
+    
+    
+                marker_d93c85c5b327985bb2b59b2e9a3c8bc4.setIcon(icon_ce4fdad69b2c547bcf0c82f097389a42);
+            
+    
+            marker_cluster_3d70337bbd158301f3381479df5e65ba.addTo(map_a1ee3e2da1f45cae90285151ac145069);
+        
+    
+            var layer_control_b202857be33dbad226d14b13a4fe0c1d_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_237fce86c8ac8c7d2617d8191d3ac0e6,
+                },
+                overlays :  {
+                    "CUNY Campuses" : marker_cluster_09bfa7795e5e772b5eb7445f5442a750,
+                    "Access Centers" : marker_cluster_3d70337bbd158301f3381479df5e65ba,
+                },
+            };
+            let layer_control_b202857be33dbad226d14b13a4fe0c1d = L.control.layers(
+                layer_control_b202857be33dbad226d14b13a4fe0c1d_layers.base_layers,
+                layer_control_b202857be33dbad226d14b13a4fe0c1d_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_a1ee3e2da1f45cae90285151ac145069);
+
+        
+</script>
+</html>
