@@ -1,6 +1,4 @@
----
-
-```markdown
+```
 # Mapping Accessibility of Public Services Near CUNY Campuses
 
 This project explores the spatial relationship between City University of New York (CUNY) campuses and NYC Benefits Access Centers using open datasets and geospatial analysis.
@@ -49,5 +47,3 @@ The goal was to assess how geographically accessible public service centers are 
 Created by Daniels S.  
 *Data Science student and aspiring ML Engineer*
 ```
-
----
