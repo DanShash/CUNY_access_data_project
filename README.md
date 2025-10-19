@@ -27,4 +27,4 @@ The complete methodology, analysis, and findings are documented in the PDF repor
 ## 📬 Contact
 
 Created by Daniels S.  
-*Data Science student and aspiring ML Engineer*
+*Data Science student and aspiring Quant/ML Engineer
