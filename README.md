@@ -4,7 +4,7 @@ This project explores the spatial relationship between City University of New Yo
 
 The goal was to assess how geographically accessible public service centers are to students, supported by data visualization and a bonus machine learning model for borough classification.
 
-## 🔍 Project Highlights
+## Project Highlights
 
 - Merged and cleaned two public datasets using geolocation
 - Calculated distances between CUNY campuses and the nearest access centers
@@ -12,27 +12,27 @@ The goal was to assess how geographically accessible public service centers are 
 - Built a PyTorch model to classify boroughs based on spatial features
 - Documented the full process in a formal technical report
 
-## 📄 Full Report
+## Full Report
 
 The complete methodology, analysis, and findings are documented in the PDF report:
 
-👉 To View the full report (PDF) go to Report_paper_folder/Project_Report_paper.pdf and open the pdf file.
+To View the full report (PDF) go to Report_paper_folder/Project_Report_paper.pdf and open the pdf file.
 
-## 🗂️ Notebooks & Visuals
+## Notebooks & Visuals
 
 - Run the main notebook (`.ipynb`) to view data wrangling, analysis, and modeling steps
 - Open the `.html` map file locally to explore the interactive map
 - Additional charts and model results are included as `.png` images
 
 
-## 🔄 Extended Analysis Part 2 ( Can be Viewed in Code-Notebook/cuny_benefits_part2_extended_analysis.ipynb)
+## Extended Analysis Part 2 ( Can be Viewed in Code-Notebook/cuny_benefits_part2_extended_analysis.ipynb)
 
 As a second phase of this project, additional analyses were performed using new
 techniques covered in a Data Management II course. This extension focuses on
 extracting deeper insights from the existing datasets rather than introducing
 new data sources.
 
-### ✨ New Techniques Applied
+### New Techniques Applied
 
 - **Regular Expressions (Regex):**  
   Unstructured text from access center descriptions was processed using regex to
@@ -53,7 +53,7 @@ new data sources.
   data-grounded summaries of analytical results could be generated, without
   relying on external APIs or deployed language models.
 
-### 📊 New Questions Addressed
+### New Questions Addressed
 
 - How do service characteristics vary across NYC boroughs?
 - Which boroughs have higher concentrations of child-related services?
@@ -64,7 +64,7 @@ This extended analysis adds a service-level and borough-level perspective to the
 original proximity-focused study, demonstrating how additional data management
 techniques can enhance and deepen existing analyses.
 
-## 📬 Contact
+## Contact
 
 Created by Daniels S.  
 *Data Science student and aspiring Quant/ML Engineer
